@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game5.unity
     guid: 669bf105bb4c1fe49bfd79b1b384cdc1
+  - enabled: 1
+    path: Assets/Scenes/ExitScene.unity
+    guid: 66a6207955068bb43ad15ea6833eb61e
   m_configObjects: {}

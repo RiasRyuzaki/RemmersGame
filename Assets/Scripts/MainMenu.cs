@@ -5,7 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void PlayGame ()
+   private bool isMuted;
+
+   public void Start()
+    {
+        isMuted = false;
+    }
+
+   public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
@@ -22,5 +29,12 @@ public class MainMenu : MonoBehaviour
     public void MainMenuScene()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void MutePressed()
+    {
+        isMuted = !isMuted;
+        AudioListener.pause = isMuted;
+
     }
 }
