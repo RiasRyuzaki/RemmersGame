@@ -14,6 +14,8 @@ public class GameController : MonoBehaviour
 
     public List<Button> btns = new List<Button>();
 
+    public GameObject completeLevelUI;
+
     private bool firstGuess, secondGuess;
     private int countGuesses;
     private int countCorrectGuesses;
@@ -119,6 +121,7 @@ public class GameController : MonoBehaviour
         if(countCorrectGuesses == gameGuesses)
         {
             Debug.Log("finished");
+            completeLevelUI.SetActive(true);
         }
     }
 
