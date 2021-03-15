@@ -122,6 +122,13 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("finished");
             completeLevelUI.SetActive(true);
+            GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("mbutton");
+
+            foreach (GameObject go in gameObjectArray)
+            {
+                go.SetActive(false);
+            }
+
         }
     }
 

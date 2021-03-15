@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Graj
+  m_Text: GRAJ
 --- !u!222 &160220350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wyj\u015Bcie"
+  m_Text: "WYJ\u015ACIE"
 --- !u!222 &1258478948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 1276018659}
   m_Layer: 5
   m_Name: MButton
-  m_TagString: Untagged
+  m_TagString: mbutton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -971,7 +971,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cf1a50224313dd845b1e6667ae384e59, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9bfd3d2a0746bd5418d260384357158e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

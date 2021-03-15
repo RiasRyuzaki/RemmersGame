@@ -273,6 +273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFader
       objectReference: {fileID: 0}
+    - target: {fileID: 9069768391962963574, guid: 3ccc4e5963afe334796e0c4d7dcab1de,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9069768391962963576, guid: 3ccc4e5963afe334796e0c4d7dcab1de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -411,7 +416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Powr\xF3t"
+  m_Text: "POWR\xD3T"
 --- !u!222 &320339887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1150,7 +1155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wyb\xF3r Poziomu"
+  m_Text: "WYB\xD3R POZIOMU"
 --- !u!222 &933396453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2776,12 +2781,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2987,7 +2992,7 @@ GameObject:
   - component: {fileID: 1965918414}
   - component: {fileID: 1965918413}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3116,7 +3121,7 @@ GameObject:
   - component: {fileID: 2124325359}
   - component: {fileID: 2124325358}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Baner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
