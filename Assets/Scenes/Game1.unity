@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Kontynuuj
+  m_Text: KONTYNUUJ
 --- !u!222 &4057101
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 481dcd7390adb5d4fb9fe35261d36432, type: 3}
   - {fileID: 21300000, guid: 93fd1379a8a80a349a4a9c8420349bbf, type: 3}
   - {fileID: 21300000, guid: f7b6c9a5a71fbf14cad8e0d38055dcc1, type: 3}
-  - {fileID: 21300000, guid: bec9c0efa80d0b947964cc1f1ec4dcb6, type: 3}
+  - {fileID: 21300000, guid: 0f0ed3e7810f3664c98f086a9220d2df, type: 3}
   - {fileID: 21300000, guid: b1e41dfec029a3748a39038085ccca07, type: 3}
   - {fileID: 21300000, guid: f671d4b22d9559743a0d2022b23afd81, type: 3}
   - {fileID: 21300000, guid: 0050d891fa3ff3347b326bfd57af5641, type: 3}
@@ -513,8 +513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355, y: -265}
-  m_SizeDelta: {x: 465.50568, y: 185.49707}
+  m_AnchoredPosition: {x: -361, y: -272}
+  m_SizeDelta: {x: 518.556, y: 174.52109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406055745
 MonoBehaviour:
@@ -899,8 +899,8 @@ GameObject:
   - component: {fileID: 640606056}
   - component: {fileID: 640606055}
   m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
+  m_Name: BButton
+  m_TagString: mbutton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -922,8 +922,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 795.7, y: 453.6}
-  m_SizeDelta: {x: 244.5755, y: 98.84071}
+  m_AnchoredPosition: {x: 839.6, y: 484.1}
+  m_SizeDelta: {x: 171.39645, y: 111.65274}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640606055
 MonoBehaviour:
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.20784315, b: 0.37254903, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1085,7 +1085,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wyb\xF3r poziom\xF3w"
+  m_Text: "WYB\xD3R POZIOM\xD3W"
 --- !u!222 &890944224
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1144,15 +1144,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 41aa5e69c146a6941957797823e4917f, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: bc169f9e9eadf9f478bcbc4b9f06580f, type: 3}
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1163,7 +1163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Powr\xF3t"
+  m_Text: "POWR\xD3T"
 --- !u!222 &1325696386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1206,7 +1206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 198}
+  m_AnchoredPosition: {x: 0, y: 7.4012}
   m_SizeDelta: {x: 955.8213, y: 359.30527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413725780
@@ -1413,8 +1413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -146}
-  m_SizeDelta: {x: 667.1371, y: 237.21063}
+  m_AnchoredPosition: {x: 0, y: -242}
+  m_SizeDelta: {x: 637, y: 198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497594075
 MonoBehaviour:
